@@ -11,4 +11,4 @@ I personally bought the book from Google Play because the price there was lower 
 
 Otherwise the book is also available in paper version from most book stores.
 
-You can also get an coures from [learncodthehardway.org](https://learncodethehardway.org/) and then an e-book, videos and other content will be available for you there, I assume.
+You can also get an course from [learncodthehardway.org](https://learncodethehardway.org/) and then an e-book, videos and other content will be available for you there, I assume.
