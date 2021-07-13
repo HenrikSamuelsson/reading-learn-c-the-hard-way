@@ -12,3 +12,9 @@ I personally bought the book from Google Play because the price there was lower 
 Otherwise the book is also available in paper version from most book stores.
 
 You can also get an course from [learncodthehardway.org](https://learncodethehardway.org/) and then an e-book, videos and other content will be available for you there, I assume.
+
+## Development Environment
+
+Plan to try doing the exercises using a Windows 10 machine but running Ubuntu 20.04 Linux on Windows Subsystem for Linux 2 (WSL).
+
+I basiccally just followed the guide [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-gb/windows/wsl/install-win10) to get Ubuntu on my Windows machine.
