@@ -15,6 +15,33 @@ You can also get an course from [learncodthehardway.org](https://learncodethehar
 
 ## Development Environment
 
+### Operating System
+
 Plan to try doing the exercises using a Windows 10 machine but running Ubuntu 20.04 Linux on Windows Subsystem for Linux 2 (WSL).
 
 I basiccally just followed the guide [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-gb/windows/wsl/install-win10) to get Ubuntu on my Windows machine.
+
+### Build Tools
+
+When having Ubuntu running I installed the gcc compiler and other build tools using the following command.
+
+```
+sudo apt-get install build-essential
+```
+
+Checked the installed GCC version using the following command.
+
+```
+gcc --version
+```
+
+Which returned.
+
+```
+gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+So I am currently at version 9.3.0.
