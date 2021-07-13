@@ -7,7 +7,7 @@ by Addison-Wesley Professional.
 
 Some notes on buying the book.
 
-I personally bought the book from Google Play because the price there was lower than in many other places. An issue with buying from Google Play is that there are videos that complement the book that are not included in the Google Play edition. So what I did was to register the book at [informit.com](https://www.informit.com/) and then it was possible to download a file with all the videos.
+I personally bought the book from Google Play because the price there was lower than in many other places. An issue with buying from Google Play is that there are videos that complement the book that are not directly included in the Google Play edition. So what I did was to register the book at [informit.com](https://www.informit.com/) and then it was possible to download a file with all the videos from there.
 
 Otherwise the book is also available in paper version from most book stores.
 
