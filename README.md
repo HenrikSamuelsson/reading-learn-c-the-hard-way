@@ -3,7 +3,7 @@
 Material related to reading the book Learn C the Hard Way: Practical Exercises on the Computational Subjects You Keep Avoiding (Like C), written by Zed A. Shaw, published Aug 2015
 by Addison-Wesley Professional.
 
-## Buying Options
+## Book Buying Options
 
 Some notes on buying the book.
 
