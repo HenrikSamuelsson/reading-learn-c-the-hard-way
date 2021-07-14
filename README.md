@@ -45,3 +45,11 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 So I am currently at version 9.3.0.
+
+## Resources
+
+Some resources used while doing the exercises in the book.
+
+### Make
+
+[Using make and writing Makefiles](https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html)
