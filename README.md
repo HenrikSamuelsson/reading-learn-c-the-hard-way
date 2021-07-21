@@ -46,6 +46,32 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 So I am currently at version 9.3.0.
 
+### Editor
+
+I use Vim to edit the C source code files.
+
+Have a few personal settings for Vim in my .vimrc file. To edit the .vimrc file in the Ubuntu console do the following.
+
+Go to the home directory:
+
+```
+cd ~
+```
+
+Use Vim to edit the .vimrc file that shall be stored in the home directory.
+
+```
+vim .vimrc
+```
+
+My .vimrc holds something like the following, dark background to improve readability in some situacions since my console background is dark, a line marker to see where columnt 80 is since prefer to not have too long source code lines, and then finally setup to use the desert color scheme.
+
+```
+:set background=dark
+:set colorcolumn=80
+colorscheme desert
+```
+
 ## Resources
 
 Some resources used while doing the exercises in the book.
