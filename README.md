@@ -64,7 +64,10 @@ Use Vim to edit the .vimrc file that shall be stored in the home directory.
 vim .vimrc
 ```
 
-My .vimrc holds something like the following, dark background to improve readability in some situacions since my console background is dark, a line marker to see where columnt 80 is since prefer to not have too long source code lines, and then finally setup to use the desert color scheme.
+My .vimrc holds something like the following
+- dark background to improve readability in some situations since my console background is dark
+- a line marker to see where columnt 80 is since prefer to not have too long source code lines
+- setup to use the desert color scheme
 
 ```
 :set background=dark
