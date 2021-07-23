@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	// Calculate the number of elements in the array ages.
 	int count = sizeof(ages) / sizeof(int);
 
-	printf("Content of ages and names printed using array indexes.");
+	printf("Ages and names printed using array indexes.");
 	printf("\n");
 	for (size_t idx = 0; idx < count; idx++)
 	{
@@ -28,11 +28,29 @@ int main(int argc, char *argv[])
 	}
 	printf("\n");
 	
-	printf("Content of ages and names printed using pointers.");
+	printf("Ages and names printed using pointers.");
 	printf("\n");
 	for (size_t i = 0; i < count; i++)
 	{
 		printf("%s is %d years old.", *(names_pp + i), *(ages_p + i));
+		printf("\n");
+	}
+	printf("\n");
+
+	printf("Ages and names printed using pointers as arrays.");
+	printf("\n");
+	for (size_t idx = 0; idx < count; idx++)
+	{
+		printf("%s is %d years old.", names_pp[idx], ages_p[idx]);
+		printf("\n");
+	}
+	printf("\n");
+	
+	printf("Ages and names printed using complex pointer arithmetics.");
+	printf("\n");
+	for (ages_p = ages, names_pp = names; ages_p - ages < count; ages_p++, names_pp++)
+	{
+		printf("%s is %d years old.", *names_pp, *ages_p);
 		printf("\n");
 	}
 	printf("\n");
