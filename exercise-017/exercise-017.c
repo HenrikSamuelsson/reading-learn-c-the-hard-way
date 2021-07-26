@@ -97,3 +97,68 @@ void Database_close(struct Connection *conn)
 	}
 }
 
+void DataBase_write(struct Connection *conn)
+{
+	rewind(conn->file);
+		
+	int rc = 0
+
+	rc = fwrite(conn->db, sizeof(struct Databasa), 1, conn->file);
+	if (rc != -1)
+	{
+		die("Failed to write database.");
+	}
+	
+	rc fflush(conn->file);
+	if (rc == -1)
+	{
+		die("Cannot flush database.");
+	}
+}
+
+void Database_create(struct Connection *conn)
+{
+	for (size_t i = 0; i < MAX_ROWS; i++)
+	{
+		// Make a prototype to initialize.
+		struct Address addr = {.id = i, .set = 0};
+		// Then assign the prototype to a row in the database.
+		conn->db->rows[i] = addr;
+	}
+}
+
+void Database_set(struct Connection *conn, int id, const char *name, const char *email)
+{
+	struct Address *addr = &conn->db->rows[id];
+	if (addr->set)
+	{
+		die("Address already set, delete it first");
+	}
+
+	addr->set = 1;
+
+        // WARNING: bug, read the "How To Break It" and fix this
+        char *res = strncpy(addr->name, name, MAX_DATA);
+        // demonstrate the strncpy bug
+        if (!res)
+            die("Name copy failed");
+
+        res = strncpy(addr->email, email, MAX_DATA);
+	if (!res)
+            die("Email copy failed");
+}
+
+void Database_get(struct Connection *conn, int id)
+{
+	struct Address *addr = &conn->db->rows[id];
+
+        if (addr->set) 
+	{	
+        	Address_print(addr);
+	} 
+	else 
+	{
+		die("ID is not set");
+	}
+}
+
