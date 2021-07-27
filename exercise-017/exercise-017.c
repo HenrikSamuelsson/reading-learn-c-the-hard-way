@@ -110,7 +110,7 @@ void Database_write(struct Connection *conn)
 	int rc = 0;
 
 	rc = fwrite(conn->db, sizeof(struct Database), 1, conn->file);
-	if (rc != -1)
+	if (rc != 1)
 	{
 		die("Failed to write database.");
 	}
