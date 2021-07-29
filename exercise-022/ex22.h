@@ -2,7 +2,7 @@
 #define EX22_H
 
 // Make THE_SIZE in ex22.c available to other .c files.
-extern int THE_SIZE;
+extern int the_size;
 
 // Gets the internal static variable age in ex22.c.
 int get_age();
@@ -11,7 +11,7 @@ int get_age();
 void set_age(int age);
 
 // Updates a static variable that is inside update_ratio.
-double update_ratio(double ratio);
+double update_ratio(double new_ratio);
 
 void print_size();
 
